@@ -1,0 +1,26 @@
+# Prevent this template folder from being committed into projects
+# Add "copilot-multi-agent-setup/" to your repo's .gitignore if you
+# accidentally copy this entire folder instead of using install.sh
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/settings.json
+
+# Environment / secrets (never commit these)
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Dependencies (if any scripts added later)
+node_modules/
+__pycache__/
+*.pyc
